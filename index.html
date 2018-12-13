@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>       
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Loan Calculator</title>
+    </head>
+    <body>
+        <table>
+            <tbody>
+                <tr>
+                    <th>Enter loan data:</th>
+                    <td></td>
+                    <th>Loan Balance, Cumulative Equity, and Interst Payments</th>
+                </tr>
+                <tr>
+                    <td>Amount of the loan ($): </td>
+                    <td>
+                        <input id="amount">
+                    </td>
+                    <td rowspan="8">
+                        <canvas id="graph"></canvas>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Annual Interest (%): </td>
+                    <td>
+                        <input id="interest">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Repayment period (years): </td>
+                    <td>
+                        <input id="period">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Zipcode (to find lenders): </td>
+                    <td>
+                        <input id="zipcode">
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Approximate Payments: </b></td>
+                    <td>
+                        <button type="button" id="calculate"  onclick="calculate()">Calculate</button>
+                        <button type="button" id="reset"  onclick="reset()">Reset</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Monthly payment: </b></td>
+                    <td>
+                        $
+                        <span class="output" id="monthly"></span>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Total payment: </b></td>
+                    <td>
+                        $
+                        <span class="output" id="total"></span>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Total interest: </b></td>
+                    <td>
+                        $
+                        <span class="output" id="totalInterest"></span>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td><b><center>Sponsors:</center> </b></td>
+                    <td colspan="2">
+                       Apply for your loan with one of these find lenders:
+                    </td>
+                </tr>
+                <tr>
+                    <td><b></b></td>
+                    <td colspan="2">
+                        <div id="lenders" class="jumbotron">
+                        </div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <script src="js/app.js"></script>
+    </body>
+       
+</html>

@@ -1,0 +1,50 @@
+[
+    {
+      "name":"Barot Bellingham",
+      "shortname":"Barot_Bellingham",
+      "zipcode": "94040",
+      "address":"100 monte ave, mountain view, ca",
+      "phone": "650-123-3333",
+      "bio":"30 years of loan experience."
+    },
+    {
+      "name":"Jonathan G. Ferrar II",
+      "shortname":"Jonathan_Ferrar",
+      "zipcode": "94040",
+      "address":"25 lilly road, mountain view, ca",
+      "phone": "650-999-5555",
+      "bio":"Best loan gauranteed"
+    },
+    {
+      "name":"Hillary Hewitt Goldwynn-Post",
+      "shortname":"Hillary_Goldwynn",
+      "zipcode":"95112",
+      "address":"699 landy ave, san jose, ca",
+      "phone": "408-666-2223",
+      "bio":"5-star service"
+    },
+    {
+      "name":"Hassum Harrod",
+      "shortname":"Hassum_Harrod",
+      "zipcode": "95112",
+      "address":"380 mills road, san jose, ca",
+      "phone": "408-555-7766",
+      "bio":"enjoy the lowest interest rate"
+    },
+    {
+      "name":"Jennifer Jerome",
+      "shortname":"Jennifer_Jerome",
+      "zipcode":"95112",
+      "address": "755 mammot street, san jose, ca",
+      "phone": "408-223-7799",
+      "bio":"quick loan, fast process"
+    },
+    {
+      "name":"LaVonne L. LaRue",
+      "shortname":"LaVonne_LaRue",
+      "zipcode":"94040",
+      "address":"255 sunny road, mountain view, ca",
+      "phone": "650-206-2269",
+      "bio":"the pioneer in giant loans"
+    }
+  ]
