@@ -1,0 +1,15 @@
+.output {
+    font-weight:bold;
+  }  
+  #graph {
+    border:solid black 1px;
+    width:400px;
+    height:250px;
+  }
+  th, td {
+    vertical-align: top;
+  }
+  li {       
+      background-color: darkgray; 
+  }
+ 
